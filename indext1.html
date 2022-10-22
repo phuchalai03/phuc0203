@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets1/font/fontawesome-free-6.2.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets1/css/base.css">
+    <link rel="stylesheet" href="./assets1/css/main.css">
+</head>
+<body>
+    <div class="app">
+        <!-- Header -->
+        <header class="header">
+            <div class="grid">
+                <img class="navbar-img" src="./assets1/img/quangcao.png" alt="ảnh">
+                <nav class="navbar">
+                    <ul class="navbar-list">
+                        <li class="navbar-item">
+                            <a class="navbar-item-link" href="">
+                                <i class="fa-solid fa-house"></i>Home</a> </li>
+                        <li class="navbar-item">
+                            <a class="navbar-item-link" href="#hot-brand">
+                                <i class="fa-brands fa-hotjar"></i>Hot</a></li>
+                        <li class="navbar-item">
+                            <a class="navbar-item-link" href="#menu">Menu</a></li>
+                        <li class="navbar-item navbar-item-has-list">
+                            <a class="navbar-item-link" href="">Brands
+                                <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="brand">
+                                <header class="brand-list-header">
+                                    <h3>Popular Brand</h3>
+                                </header>
+                               <ul class="brand-list">
+                                    <li class="brand-item">
+                                        <a class="brand-item-link" href="https://louisbui-27.github.io/iPhone/iPhone.html">
+                                            <img src="./assets1/img/logo-iphone.png" alt=""></a>
+                                    </li>
+                                    <li class="brand-item">
+                                        <a class="brand-item-link" href="">
+                                            <img src="./assets1/img/logo-oppo.png" alt=""></a>
+                                    </li>
+                                    <li class="brand-item">
+                                        <a class="brand-item-link" href="">
+                                            <img src="./assets1/img/logo-samsung.png" alt=""></a>
+                                    </li>
+                               </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="navbar-list">
+                        <li class="navbar-item">
+                            <a class="navbar-item-link" href="">
+                                <i class="fa-regular fa-circle-question"></i>Help</a>
+                            </li>
+                        <li class="navbar-item">
+                            <a class="navbar-item-link" href="">Sign in</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="navbar-item-link" href="./indext2.html"><i class="fa-solid fa-circle-user"></i>Sign up</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="search">
+                    <div class="logo">
+                        <div class="main-logo">
+                            1194SHOP
+                        </div>
+                    </div>
+                    <div class="search-bar">
+                        <div class="search-input-wrap">
+                            <input type="text" class="search-input" placeholder="Tìm kiếm sản phẩm">
+                        </div>
+                        <button class="search-button">
+                            <i class="search-button-icon fa-sharp fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <div class="cart">
+                        <div class="cart-wrap">
+                            <i class="cart-icon fa-solid fa-cart-shopping"></i>
+                            <div class="cart-list cart-list--no-cart">
+                                <img src="./assets1/img/no-cart.png" alt="no-cart" class="cart-no-cart">
+                                <span class="cart-message">
+                                    Chưa có sản phẩm
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Container -->
+
+        <div class="container">
+            <div class="big-banner">
+                <a href="#">
+                    <img src="./assets1/img/quangcao2.png" alt="anh">
+                </a>
+            </div>
+
+          <div class="grid">
+            <section class="main-container">
+            <div class="bottom-banner">
+                <div class="bottom-banner-item">
+                    <img class="bottom-banner-item-img" src="./assets1/img/quangcao3.png" alt="anh">
+                </div>
+                <div class="bottom-banner-item">
+                    <img class="bottom-banner-item-img" src="./assets1/img/qusngcao4.png" alt="anh">
+                </div>
+            </div>
+
+            <div class="hot-brands" id="hot-brand">
+                <div class="hot-brand-item">
+                    <img class="hot-brand-item-img" src="./assets1/img/quangcao1.png" alt="anh">
+                </div>
+
+                <div class="hot-brand-item">
+                    <div class="hot-brand-item-advertise">
+                        <i>Săn sale mỗi ngày</i>
+                    </div>
+                    <div class="hot-brand-product">
+                        <div class="hot-brand-product-item">
+                            <img class="hot-brand-product-img" src="./assets1/img/iphone-14-pro-max.jpg" alt="Ảnh">
+                            <a href="" class="name-product">Iphone 14 Promax</a>
+                            <p class="price-product">
+                                <span class="price-old">35.000.000đ</span>
+                                <span class="price-new">33.990.000đ</span>
+                            </p>
+                            <p class="rating-product">
+                                4.7 <i class="fa-solid fa-star rating-item"></i>
+                            </p>
+                                
+                        </div>
+                        <div class="hot-brand-product-item">
+                            <img class="hot-brand-product-img" src="./assets1/img/Galaxy-S22-Green.jpg" alt="Ảnh">
+                            <a href="" class="name-product">Samsung S22 Green</a>
+                            <p class="price-product">
+                                <span class="price-old">17.000.000đ</span>
+                                <span class="price-new">15.990.000đ</span>
+                            </p>
+                            <p class="rating-product">
+                                4.0 <i class="fa-solid fa-star rating-item"></i>
+                            </p>
+                                
+                        </div>
+                        <div class="hot-brand-product-item">
+                            <img class="hot-brand-product-img" src="./assets1/img/vivo-v25e-vang-thumb.jpg" alt="Ảnh">
+                            <a href="" class="name-product">Vivo V25E</a>
+                            <p class="price-product">
+                                <span class="price-old">9.000.000đ</span>
+                                <span class="price-new">7.990.000đ</span>
+                            </p>
+                            <p class="rating-product">
+                                4.2 <i class="fa-solid fa-star rating-item"></i>
+                            </p>
+                                
+                        </div>
+                        <div class="hot-brand-product-item">
+                            <img class="hot-brand-product-img" src="./assets1/img/xiaomi-12t-thumb.jpg" alt="Ảnh">
+                            <a href="" class="name-product">Xiaomi 12T 256GB</a>
+                            <p class="price-product">
+                                <span class="price-old">14.000.000đ</span>
+                                <span class="price-new">12.990.000đ</span>
+                            </p>
+                            <p class="rating-product">
+                                3.8 <i class="fa-solid fa-star rating-item"></i>
+                            </p>
+                                
+                        </div>
+                        <div class="hot-brand-product-item">
+                            <img class="hot-brand-product-img" src="./assets1/img/xiaomi-poco-c40-thumb-vang.jpg" alt="Ảnh">
+                            <a href=""class="name-product">Xiaomi POCO C40</a>                    
+                            <p class="price-product">
+                                <span class="price-old">3.500.000đ</span>
+                                <span class="price-new">2.990.000đ</span>
+                            </p>
+                            <p class="rating-product">
+                                3.9 <i class="fa-solid fa-star rating-item"></i>
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+          </div>
+
+          <div class="grid">
+                <div class="online-pay-tittle">
+                    Giảm thêm khi thanh toán online
+                </div>
+                <ul class="online-pay-content">
+                    <li class="online-pay-item">
+                        <img class="online-pay-img" src="./assets1/img/online-pay1.jpg" alt="">
+                    </li>
+                    <li class="online-pay-item">
+                        <img class="online-pay-img" src="./assets1/img/online-pay2.png" alt="">
+                    </li>
+                    <li class="online-pay-item">
+                        <img class="online-pay-img" src="./assets1/img/online-pay3.png" alt="">
+                    </li>
+                </ul>
+          </div>
+
+          <div class="grid">
+            <div class="extra-container" id="menu">
+                <div class="extra-tittle">
+                    Menu
+                </div>
+
+                <div class="extra-container-item">
+                    <div class="extra-container-product">
+                        <img class="extra-container-img" src="./assets1/img/5.jpg" alt="anh">
+                        <p class="extra-name-product">Iphone 14 Pro 512GB</p>
+                        <p class="extra-price-old">40.990.000đ</p>
+                        <p class="extra-price-new">40.490.000đ</p>
+                        <p class="extra-rating-product">
+                            4.7<i class="fa-solid fa-star rating-item"></i>
+                        </p>
+                    </div>
+                    <div class="extra-container-product">
+                        <img class="extra-container-img" src="./assets1/img/6.jpg" alt="anh">
+                        <p class="extra-name-product">OPPO Find X5 Pro</p>
+                        <p class="extra-price-old">32.990.000đ</p>
+                        <p class="extra-price-new">28.990.000đ</p>
+                        <p class="extra-rating-product">
+                            4.3<i class="fa-solid fa-star rating-item"></i>
+                        </p>
+                    </div>
+                    <div class="extra-container-product">
+                        <img class="extra-container-img" src="./assets1/img/7.jpg" alt="anh">
+                        <p class="extra-name-product">Samsung Galaxy Z Fold3</p>
+                        <p class="extra-price-old">41.990.000đ</p>
+                        <p class="extra-price-new">31.990.000đ</p>
+                        <p class="extra-rating-product">
+                            4.5<i class="fa-solid fa-star rating-item"></i>
+                        </p>
+                    </div>
+                    <div class="extra-container-product">
+                        <img class="extra-container-img" src="./assets1/img/8.jpg" alt="anh">
+                        <p class="extra-name-product">Iphone 13 Pro Max</p>
+                        <p class="extra-price-old">33.990.000đ</p>
+                        <p class="extra-price-new">27.490.000đ</p>
+                        <p class="extra-rating-product">
+                            4.8<i class="fa-solid fa-star rating-item"></i>
+                        </p>
+                    </div>
+                    <div class="extra-container-product">
+                        <img class="extra-container-img" src="./assets1/img/9.jpg" alt="anh">
+                        <p class="extra-name-product">Iphone 14 Plus 128GB</p>
+                        <p class="extra-price-old">27.990.000đ</p>
+                        <p class="extra-price-new">27.490.000đ</p>
+                        <p class="extra-rating-product">
+                            4.8<i class="fa-solid fa-star rating-item"></i>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="extra-container-item">
+                    <div class="extra-container-product">
+                        <img class="extra-container-img" src="./assets1/img/1.jpg" alt="anh">
+                        <p class="extra-name-product">Samsung Galaxy A23</p>
+                        <p class="extra-price-old">5.690.000đ</p>
+                        <p class="extra-price-new">5.190.000đ</p>
+                        <p class="extra-rating-product" >
+                            3.9<i class="fa-solid fa-star rating-item"></i>
+                        </p>
+                    </div>
+                    <div class="extra-container-product">
+                        <img class="extra-container-img" src="./assets1/img/2.jpg" alt="anh">
+                        <p class="extra-name-product">Iphone 11</p>
+                        <p class="extra-price-old">14.990.000đ</p>
+                        <p class="extra-price-new">11.790.000đ</p>
+                        <p class="extra-rating-product">
+                            4.0<i class="fa-solid fa-star rating-item"></i>
+                        </p>
+                    </div>
+                    <div class="extra-container-product">
+                        <img class="extra-container-img" src="./assets1/img/3.jpg" alt="anh">
+                        <p class="extra-name-product">Samsung Galaxy S22 Ultra  </p>
+                        <p class="extra-price-old">30.990.000đ</p>
+                        <p class="extra-price-new">25.990.000đ</p>
+                        <p class="extra-rating-product">
+                            4.9<i class="fa-solid fa-star rating-item"></i>
+                        </p>
+                    </div>
+                    <div class="extra-container-product">
+                        <img class="extra-container-img" src="./assets1/img/4.jpg" alt="anh">
+                        <p class="extra-name-product">OPPO Reno8 series</p>
+                        <p class="extra-price-old">18.990.000đ</p>
+                        <p class="extra-price-new">16.990.000đ</p>
+                        <p class="extra-rating-product">
+                            4.5<i class="fa-solid fa-star rating-item"></i>
+                        </p>
+                    </div>
+                    <div class="extra-container-product">
+                        <img class="extra-container-img" src="./assets1/img/10.jpg" alt="anh">
+                        <p class="extra-name-product">Samsung Galaxy Z Flip4</p>
+                        <p class="extra-price-old">23.990.000đ</p>
+                        <p class="extra-price-new">20.990.000đ</p>
+                        <p class="extra-rating-product">
+                            4.4<i class="fa-solid fa-star rating-item"></i>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="extra-container-item">
+                       <a class="extra-container-button" href="">
+                        Xem thêm <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                       </a>
+                </div>
+            </div>
+          </div>
+      </div>
+
+      <!-- Footer -->
+      
+      <footer>
+        
+            <div class="first-footer">
+                <div class="first-footer-item">
+                    <img class="first-footer-img" src="./assets1/img/giaohang.png" alt="">
+                    <p class="first-footer-content">Giao hàng tận nơi</p>
+                </div>
+                <div class="first-footer-item">
+                    <img class="first-footer-img" src="./assets1/img/thanhtoan.png" alt="">
+                    <p class="first-footer-content">Thanh toán linh hoạt</p>
+                </div>
+                <div class="first-footer-item">
+                    <img class="first-footer-img" src="./assets1/img/hang hoa.png" alt="">
+                    <p class="first-footer-content">Lỗi 1 đổi 1 trong vòng 15 ngày</p>
+                </div>
+                <div class="first-footer-item">
+                    <img class="first-footer-img" src="./assets1/img/hotro.png" alt="">
+                    <p class="first-footer-content">Hỗ trợ khách hàng 24/7</p>
+                </div>
+            </div>
+            <div class="second-footer">
+                <div class="second-footer-item">
+                    <h1>1194 SHOP</h1>
+                    <hr>
+                    <p><i class="fa-sharp fa-solid fa-location-dot"></i></i>Địa chỉ: Số 3 Cầu Giấy, Láng Thượng, Đống Đa, Hà Nội</p>
+                    <p><i class="fa-solid fa-mobile-screen-button"></i>Số điện thoại: 0372810621</p>
+                    <p><i class="fa-sharp fa-solid fa-envelope"></i>Email: 1194shop@gmail.com</p>
+                    <p><i class="fa-solid fa-earth-americas"></i>Wedsite: http://1194shop.com.vn</p>
+                </div>
+                <div class="second-footer-item">
+                    <h1>Follow us</h1>
+                    <div class="footer-logo">
+                        <div class="footer-logo-item"><img src="./assets1/img/lo-fb.png" class="footer-logo-img" alt=""></div>
+                        <div class="footer-logo-item"><img src="./assets1/img/logo-ig.png" class="footer-logo-img" alt=""></div>
+                        <div class="footer-logo-item"><img src="./assets1/img/logo-gg.png" class="footer-logo-img" alt=""></div>
+                        <div class="footer-logo-item"><img src="./assets1/img/logo-ytb.png" class="footer-logo-img" alt=""></div>
+                    </div>
+                </div>
+            </div>
+
+        
+      </footer>
+
+    </div>
+</body>
+</html>
